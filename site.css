@@ -10,11 +10,6 @@
   margin: 0; /* Remove margin to prevent spacing issues */
 }
 
-.title a {
-  color: #000;
-  text-decoration: none;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -173,7 +168,7 @@ body {
   }
   .details-paragraph {
     display: block;
-    font-family: Cormorant Garamond;
+    font-family: Garamond;
     /* font-family: "Ubuntu", sans-serif; */
     margin-left: auto;
     margin-right: auto;
@@ -200,7 +195,7 @@ body {
 
   .contact {
     text-align: center;
-    font-family: Cormorant Garamond;
+    font-family: Garamond;
     font-size: 18px;
     padding: 20px;
     display: flex;
@@ -356,7 +351,7 @@ body {
       width: 50%; */
   }
   .details-paragraph {
-    font-family: Cormorant Garamond;
+    font-family: Garamond;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -375,7 +370,7 @@ body {
   }
   .contact {
     text-align: center;
-    font-family: Cormorant Garamond;
+    font-family: Garamond;
     font-size: 18px;
     padding: 20px;
     display: flex;
@@ -433,7 +428,7 @@ body {
     margin: 0 10px;
   }
   .contact-paragraph {
-    font-family: adriane-text;
+    font-family: Garamond;
     text-align: justify;
     line-height: 1.8;
     font-weight: 100;
