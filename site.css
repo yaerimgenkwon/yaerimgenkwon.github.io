@@ -175,7 +175,7 @@ body {
     width: 38%;
     text-align: justify;
     line-height: 1.8;
-    font-weight: 100;
+    /*font-weight: 100;*/
   }
   /* .contact {
     display: flex;
@@ -259,7 +259,7 @@ body {
     font-family: Garamond;
     text-align: justify;
     line-height: 1.8;
-    font-weight: 100;
+    /*font-weight: 100;*/
   }
 }
 
@@ -359,7 +359,7 @@ body {
     text-align: justify;
     line-height: 1.6;
     padding: 0;
-    font-weight: 100;
+   /*font-weight: 100;*/
   }
 
   .close-btn {
@@ -431,6 +431,6 @@ body {
     font-family: Garamond;
     text-align: justify;
     line-height: 1.8;
-    font-weight: 100;
+    /*font-weight: 100;*/
   }
 }
