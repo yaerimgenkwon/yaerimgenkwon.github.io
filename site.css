@@ -8,9 +8,6 @@
   text-align: center;
   text-transform: none;
   margin: 0; /* Remove margin to prevent spacing issues */
-  text-decoration: none; /* Remove underlining */
-  color: black; /* Set the text color to black */
-  cursor: pointer; /* Show pointer cursor to indicate interactivity */
 }
 
 
