@@ -6,9 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const writingLink = document.getElementById("writing-link");
   const contactLink = document.getElementById("contact-link");
 
-  document.getElementById("titleH1").addEventListener("click", function() {
-  window.location.href = "index.html";
-});
+ 
   
   menuBtn.addEventListener("click", (e) => {
     e.preventDefault();
