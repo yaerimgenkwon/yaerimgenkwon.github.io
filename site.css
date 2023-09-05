@@ -10,9 +10,6 @@
   margin: 0; /* Remove margin to prevent spacing issues */
 }
 
-
-
-
 body {
   margin: 0;
   padding: 0;
@@ -171,14 +168,14 @@ body {
   }
   .details-paragraph {
     display: block;
-    font-family: Garamond;
+    font-family: Cormorant Garamond;
     /* font-family: "Ubuntu", sans-serif; */
     margin-left: auto;
     margin-right: auto;
     width: 38%;
     text-align: justify;
     line-height: 1.8;
-    font-weight: normal;
+    font-weight: 100;
   }
   /* .contact {
     display: flex;
@@ -186,7 +183,6 @@ body {
     align-items: center;
     padding: 20px;
   }
-
   .contact-info {
     text-align: center;
     padding: 20px;
@@ -198,7 +194,7 @@ body {
 
   .contact {
     text-align: center;
-    font-family: Garamond;
+    font-family: Cormorant Garamond;
     font-size: 18px;
     padding: 20px;
     display: flex;
@@ -262,7 +258,7 @@ body {
     font-family: Garamond;
     text-align: justify;
     line-height: 1.8;
-    font-weight: normal;
+    font-weight: 100;
   }
 }
 
@@ -354,7 +350,7 @@ body {
       width: 50%; */
   }
   .details-paragraph {
-    font-family: Garamond;
+    font-family: Cormorant Garamond;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -362,7 +358,7 @@ body {
     text-align: justify;
     line-height: 1.6;
     padding: 0;
-    font-weight: normal;
+    font-weight: 100;
   }
 
   .close-btn {
@@ -373,7 +369,7 @@ body {
   }
   .contact {
     text-align: center;
-    font-family: Garamond;
+    font-family: Cormorant Garamond;
     font-size: 18px;
     padding: 20px;
     display: flex;
@@ -431,9 +427,9 @@ body {
     margin: 0 10px;
   }
   .contact-paragraph {
-    font-family: Garamond;
+    font-family: adriane-text;
     text-align: justify;
     line-height: 1.8;
-    font-weight: normal;
+    font-weight: 100;
   }
 }
