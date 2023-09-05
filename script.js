@@ -6,8 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const writingLink = document.getElementById("writing-link");
   const contactLink = document.getElementById("contact-link");
 
- 
-  
   menuBtn.addEventListener("click", (e) => {
     e.preventDefault();
     navbar.classList.toggle("active");
