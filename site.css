@@ -9,11 +9,15 @@
   text-transform: none;
   margin: 0; /* Remove margin to prevent spacing issues */
 }
-
+.title-link {
+  text-decoration: none; /* Remove default link underline */
+  color: inherit; /* Inherit the color from the parent element (h1.title) */
+}
 body {
   margin: 0;
   padding: 0;
   /* font-family: "EB Garamond"; */
+
   background-color: white;
   color: black;
 }
@@ -21,6 +25,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  animation: transitionIn 0.75s;
   align-items: center;
   padding: 10px 20px;
   background-color: white;
@@ -88,7 +93,7 @@ body {
 }
 
 .publication-section h2 {
-  font-family: Garamond;
+  font-family: "EB Garamond";
   font-size: 24px;
   color: #333;
   margin-bottom: 10px;
@@ -104,7 +109,8 @@ body {
 }
 
 .publication-list li a {
-  font-family: Garamond;
+  font-family: "EB Garamond";
+  font-size: 20px;
   color: #0c0c0c;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
@@ -114,6 +120,7 @@ body {
 .publication-list li a:hover {
   color: #0c0c0c;
 }
+
 @media (min-width: 769px) {
   .menu-btn {
     display: none;
@@ -144,6 +151,7 @@ body {
 
   .header {
     flex-direction: column;
+    animation: transitionIn 0.75s;
     padding: 10px 20px;
   }
 
@@ -168,14 +176,15 @@ body {
   }
   .details-paragraph {
     display: block;
-    font-family: Cormorant Garamond;
+    font-family: "EB Garamond";
+    font-size: 20px;
     /* font-family: "Ubuntu", sans-serif; */
     margin-left: auto;
     margin-right: auto;
     width: 38%;
     text-align: justify;
     line-height: 1.8;
-    font-weight: 100;
+    /* font-weight: 400; */
   }
   /* .contact {
     display: flex;
@@ -194,8 +203,8 @@ body {
 
   .contact {
     text-align: center;
-    font-family: Cormorant Garamond;
-    font-size: 18px;
+    font-family: "EB Garamond";
+    font-size: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -212,8 +221,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 20%;
     /* width: 400px; 
     height: 100px; 
     margin-top: 20px; */
@@ -255,7 +264,8 @@ body {
   }
 
   .contact-paragraph {
-    font-family: Garamond;
+    font-family: "EB Garamond";
+    font-size: 20px;
     text-align: justify;
     line-height: 1.8;
     font-weight: 100;
@@ -350,7 +360,7 @@ body {
       width: 50%; */
   }
   .details-paragraph {
-    font-family: Cormorant Garamond;
+    font-family: "EB Garamond";
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -358,7 +368,7 @@ body {
     text-align: justify;
     line-height: 1.6;
     padding: 0;
-    font-weight: 100;
+    /* font-weight: 100; */
   }
 
   .close-btn {
@@ -369,7 +379,7 @@ body {
   }
   .contact {
     text-align: center;
-    font-family: Cormorant Garamond;
+    font-family: "EB Garamond";
     font-size: 18px;
     padding: 20px;
     display: flex;
@@ -387,8 +397,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
   }
 
   .nav-links {
