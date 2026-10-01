@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const closeBtn = document.querySelector(".close-btn");
   const homeLink = document.getElementById("home-link");
   const writingLink = document.getElementById("writing-link");
+  const teachingLink = document.getElementById("teaching-link");
   const contactLink = document.getElementById("contact-link");
 
   menuBtn.addEventListener("click", (e) => {
@@ -26,6 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // or you can simply redirect to the Publications page
     navbar.classList.remove("active");
     window.location.href = "./publications.html";
+  });
+
+  teachingLink.addEventListener("click", () => {
+    navbar.classList.remove("active");
+    window.location.href = "./teaching.html";
   });
 
   contactLink.addEventListener("click", () => {
