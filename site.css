@@ -121,6 +121,42 @@ body {
   color: #0c0c0c;
 }
 
+.teaching {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.teaching h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0 28px;
+}
+
+.teaching h3 {
+  font-size: 23px;
+  font-weight: 400;
+  margin: 36px 0 20px;
+}
+
+.teaching-course {
+  margin-bottom: 32px;
+}
+
+.teaching-course h4 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 10px;
+}
+
+.teaching-course p {
+  margin: 0 0 14px;
+}
+
 @media (min-width: 769px) {
   .menu-btn {
     display: none;
